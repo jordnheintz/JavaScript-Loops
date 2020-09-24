@@ -62,4 +62,4 @@ Below are some prompts you will need to complete. You'll want to cancel out prev
 
 ## Submission
 
-You will need to submit a pull request for submission.
+You will need to submit an issue on this repository.

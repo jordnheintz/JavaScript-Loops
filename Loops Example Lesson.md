@@ -9,12 +9,22 @@
   - [Objectives](#objectives)
   - [About](#about)
   - [Types of Loops](#types-of-loops)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates)
       - [`For` Loops](#for-loops)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-1)
       - [`for..in` Loop](#forin-loop)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-1)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-2)
       - [`For..Of` Loop](#forof-loop)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-2)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-3)
     - [`while` Loops](#while-loops)
         - [Another Example](#another-example)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-3)
+    - [Instructor Explains/Demonstrates](#instructor-explainsdemonstrates-4)
     - [`do...while` Loops](#dowhile-loops)
+      - [Junior Devs Demonstrate](#junior-devs-demonstrate-4)
   - [Next Steps](#next-steps)
 
 ## Objectives
@@ -28,6 +38,8 @@
 In this unit you learned about loops and how they offer a quick and easy way to do something repeatedly. You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction, then Y steps in another.
 
 ## Types of Loops
+
+### Instructor Explains/Demonstrates
 
 #### `For` Loops
 
@@ -67,6 +79,12 @@ Let us understand what is going on in the example above. To start, the `for` key
 
 - `i++` controls how the iteratee should change after each iteration. In this case, `++` increases the variable's value by 1.
 
+#### Junior Devs Demonstrate
+
+Create a simple `for` loop.
+
+### Instructor Explains/Demonstrates
+
 #### `for..in` Loop
 
 The `for...in` loops through properties and values of an object.
@@ -83,6 +101,12 @@ for (i in person) {
 }
 ```
 
+#### Junior Devs Demonstrate
+
+Create an object and write a simple `for...in` loop to iterate over the object and print its properties and value to the console.
+
+### Instructor Explains/Demonstrates
+
 #### `For..Of` Loop
 
 The `for...of` loop lets you loop over data structures that are iterable such as Arrays, Strings, Maps etc. Whereas the `for...in` loop iterates over property names, the `for...of` loop iterates over property values.
@@ -94,6 +118,12 @@ for (let score of scores) {
   console.log(score);
 }
 ```
+
+#### Junior Devs Demonstrate
+
+Create an array and write a simple `for...of` loop to iterate over the array and print its values to the console.
+
+### Instructor Explains/Demonstrates
 
 ### `while` Loops
 
@@ -142,6 +172,12 @@ while (count < 11) {
 }
 ```
 
+#### Junior Devs Demonstrate
+
+Create `while` loop and print its value to the console.
+
+### Instructor Explains/Demonstrates
+
 ### `do...while` Loops
 
 The `do...while` statement repeats until a specified condition evaluates to false.
@@ -155,6 +191,10 @@ do {
   console.log("count is:" + count);
 } while (count < 10);
 ```
+
+#### Junior Devs Demonstrate
+
+Create `do...while` loop and print its value to the console.
 
 ## Next Steps
 

@@ -21,7 +21,7 @@ for (let i = -15; i <= 15; i++){
 // 5
 const answer = 17
 for (let i = 20; i <= 30; i += 2){
-    answer += i;
+    answer = i;
 }
 console.log(answer);
 
@@ -42,9 +42,11 @@ for (let i = 0; i <= 10; i++){
 
 
 // 8
+let i = 0
 do {
-    i += 2;
-} while (i < 20);
+i+= 2
+console.log(i)
+} while(i<20);  
 
 // 9
 let number = 5
